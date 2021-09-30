@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    border: 2px solid purple;
+    background-color: lightblue;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    color: black;
+    width: 95%;
+    padding: 0 2.5%;
+    height: 100px;
+}
+
+.navbar a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    padding: 2.5%;
+    width: 95%;
+    height: calc(92.5vh - 100px);
+}
+.image-area{
+    padding-right: 2.5%;
+    width: 70%;
+}
+.image-area img{
+    max-height: 100%;
+    width: 100%;
+   object-fit: cover;
+}
+.text-content-area{
+    padding-left: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    
+}
+.text-wrapper{
+    overflow: auto;
+    margin-bottom: 30px
+}
